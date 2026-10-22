@@ -1,0 +1,83 @@
+/* ==========================================
+   Classic Black & White Theme (LTR English)
+   ========================================== */
+
+/* Pure Black Background with crisp white text */
+body, html {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* ==========================================
+   Navbar & Navigation Links (Pure White Text)
+   ========================================== */
+.navbar {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.navbar-brand, 
+.nav-link {
+    color: #ffffff !important;
+    opacity: 0.9;
+    transition: opacity 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover, 
+.nav-link.active {
+    color: #ffffff !important;
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ==========================================
+   Hero & Dark Cards
+   ========================================== */
+.hero-section {
+    background-color: #000000 !important;
+}
+
+.card-dark {
+    background-color: #0d0d0d !important;
+    border: 1px solid #222222 !important;
+    border-radius: 12px;
+}
+
+.project-card {
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #ffffff !important;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2) !important;
+}
+
+.text-light-50 {
+    color: #cccccc !important;
+}
+
+/* ==========================================
+   Profile Image: 360px with Pure White Border
+   ========================================== */
+.profile-image-container {
+    padding: 10px;
+}
+
+.profile-img {
+    width: 360px !important;
+    height: 360px !important;
+    max-width: 360px !important;
+    max-height: 360px !important;
+    object-fit: cover !important;
+    border: 5px solid #ffffff !important;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7) !important;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.95) !important;
+}
